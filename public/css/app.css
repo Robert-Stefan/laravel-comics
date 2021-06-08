@@ -9,6 +9,10 @@ body {
   text-transform: uppercase;
 }
 
+footer {
+  text-transform: uppercase;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -88,4 +92,37 @@ header ul li a {
 .main-content .cards .card div {
   margin-top: 10px;
   margin-bottom: 50px;
+}
+
+footer {
+  background: #303030;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+footer .footer-left,
+footer .footer-right {
+  padding: 0.7rem;
+}
+footer .footer-right {
+  display: flex;
+  align-items: center;
+}
+footer .footer-right li {
+  display: inline-block;
+  margin: 0 0.7rem;
+}
+footer .btn {
+  padding: 0.7rem;
+  border: 3px solid #0482f9;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+footer .text-follow {
+  color: #0482f9;
+  margin-right: 10px;
 }

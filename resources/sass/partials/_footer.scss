@@ -1,0 +1,32 @@
+footer {
+    background: #303030;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    .footer-left,
+    .footer-right {
+        padding: 0.7rem;
+    }
+    .footer-right {
+        display: flex;
+        align-items: center;
+        li {
+            display: inline-block;
+            margin: 0 0.7rem;
+        }
+    }
+    .btn {
+        padding: 0.7rem;
+        border: 3px solid $blue;
+        text-transform: uppercase;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+    }
+    .text-follow {
+        color: $blue;
+        margin-right: 10px;
+    }
+}
