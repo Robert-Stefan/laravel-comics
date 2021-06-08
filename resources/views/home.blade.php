@@ -1,25 +1,20 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout/main')
 
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        {{-- Main Styles --}}
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    </head>
-    <body>
-         {{-- HEADER --}}
-        @include ('partials.header')
-        <main>
-            <section class="container">
-
-            </section>
-        </main>
-        {{-- FOOTER --}}    
-         @include ('partials.footer')
-    </body>
-</html>
+@section('content')
+    <section class="main-content">
+        <div class="container">
+            <div class="cards">
+                @foreach($cards as $card)
+                    <div class="card text-center">
+                        <img src="{{ $card['image'] }}" alt="">
+                        <div>{{ $card['title'] }}</div>
+                    </div> 
+                @endforeach
+                <div class="button text-center">
+                    Load More
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bar"></div>
+@endsection
