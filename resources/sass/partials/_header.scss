@@ -1,0 +1,32 @@
+header {
+    padding: 20px 0;
+    background-color: white;
+
+    div {
+        display: flex;
+
+        img {
+            width: 80px;
+        }
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin: 0 20px;
+            &:first-child {
+                margin-left: 60px;
+            }
+
+            a {
+                padding-bottom: 48px;
+                text-decoration: none;
+                color: #000;
+                font-weight: bold;
+            }
+        }
+    }
+}
