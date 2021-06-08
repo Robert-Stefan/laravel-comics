@@ -1,5 +1,5 @@
 .container {
-    max-width: 1170px;
+    max-width: 1425px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -13,16 +13,12 @@
     border-bottom: 6px solid $blue;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .button {
-    padding: 10px 80px;
+    padding: 10px 50px;
     background-color: $blue;
     color: #fff;
-    text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
 }
 
 .bar {

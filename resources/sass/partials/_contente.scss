@@ -1,0 +1,20 @@
+.main-content {
+    padding: 80px 0 20px 0;
+    color: #fff;
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+            flex-basis: 14%;
+            margin: 0 1rem;
+
+            div {
+                margin-top: 10px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
